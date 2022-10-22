@@ -14,5 +14,7 @@ cd ~/RoboreactorGenFlow
 sudo python3 configwriter_systemd.py 
 
 sudo systemctl daemon-reload 
+sudo systemctl enable RoboreactorGenFlow.service
 sudo systemctl restart RoboreactorGenFlow.service 
 sudo systemctl status RoboreactorGenFlow.service
+
